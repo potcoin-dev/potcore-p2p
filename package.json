@@ -53,16 +53,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/potcoin-DEV/potcore-p2p.git"
+    "url": "https://github.com/potcoin-dev/potcore-p2p.git"
   },
   "dependencies": {
-    "potcore-lib": "^0.13.19",
+    "potcore-lib": "^git://github.com/potcoin-dev/potcore-lib.git"",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "potcore-build": "git://github.com/potcoin-DEV/potcore-build.git",
+    "potcore-build": "git://github.com/potcoin-dev/potcore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
