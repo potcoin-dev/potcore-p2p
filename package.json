@@ -1,7 +1,7 @@
 {
-  "name": "litecore-p2p",
+  "name": "potcore-p2p",
   "version": "1.1.2",
-  "description": "Interface to the litecoin P2P network for litecore",
+  "description": "Interface to the potcoin P2P network for potcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "contributors": [
     {
       "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
+      "email": "coblee@potcoin.org"
     },
     {
       "name": "Yemel Jardi",
@@ -48,21 +48,21 @@
     }
   ],
   "keywords": [
-    "litecoin",
-    "litecore"
+    "potcoin",
+    "potcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-p2p.git"
+    "url": "https://github.com/potcoin-DEV/potcore-p2p.git"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.19",
+    "potcore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "litecore-build": "git://github.com/litecoin-project/litecore-build.git",
+    "potcore-build": "git://github.com/potcoin-DEV/potcore-build.git",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",

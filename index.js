@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var potcore = require('potcore-lib');
+potcore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = potcore.P2P;
